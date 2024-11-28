@@ -1,0 +1,31 @@
+.toolbar {
+  background-color: #f9ece6;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: "4rem"
+}
+
+.button {
+  &:focus {
+    outline: none;
+    color: #f9d9cb;
+  }
+}
+
+.iconButton {
+  &:focus {
+    outline: none;
+    color: black;
+  }
+}
+
+.favIcon{
+  &:focus{
+    color: red;
+  }
+}
