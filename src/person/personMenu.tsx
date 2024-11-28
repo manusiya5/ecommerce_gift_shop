@@ -1,4 +1,4 @@
-import { MenuItem, MenuList, Paper } from "@mui/material"
+import { MenuItem, MenuList } from "@mui/material"
 
 function PersonMenu() {
   return (
